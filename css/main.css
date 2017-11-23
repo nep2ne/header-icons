@@ -15,6 +15,18 @@ body {
   margin: 0;
 }
 
+img {
+  width: 40px;
+}
+
+.img1 {
+  float: left;
+}
+
+.img2 {
+  float: right;
+}
+
 h1 {
   background-color: #d05c2e;
   border-color: #a63f38;
@@ -25,7 +37,7 @@ h1 {
   padding: .5em 0 0;
 }
 
-div {
+.div2 {
   display: block;
   background-color: #d05c2e;
   padding: .5em;
