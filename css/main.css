@@ -7,3 +7,39 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  background-color: #d05c2e;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+nav {
+  display: block;
+  font-size: 1.1rem;
+  padding: 0 .5em .3em;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+a {
+  background-color: #d05c2e;
+  color: #fff;
+  display: inline;
+  margin: 0;
+  padding: .3em;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
