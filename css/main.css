@@ -2,6 +2,8 @@ html {
   background-color: #fff;
   font-family: Merriweather, serif;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,25 +11,44 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   background-color: #d05c2e;
+  border-color: #a63f38;
   color: #fff;
   text-align: center;
   font-size: 2rem;
+  margin: 0;
+  padding: .5em 0 0;
+}
+
+div {
+  display: block;
+  background-color: #d05c2e;
+  padding: .5em;
 }
 
 nav {
   display: block;
-  font-size: 1.1rem;
-  padding: 0 .5em .3em;
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
   display: inline-block;
   list-style-type: none;
+  margin: 0;
   text-align: center;
-  font-size: 1.125rem;
 }
 
 a {
@@ -35,7 +56,7 @@ a {
   color: #fff;
   display: inline;
   margin: 0;
-  padding: .3em;
+  padding: .5em;
   text-align: center;
   text-decoration: none;
 }
